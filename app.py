@@ -4,6 +4,8 @@ import streamlit_book as stb
 # Streamlit page properties
 st.set_page_config()
 
+st.header('Hello')
+
 # Streamit book properties
 stb.set_book_config(menu_title="streamlit_book",
                     menu_icon="lightbulb",
