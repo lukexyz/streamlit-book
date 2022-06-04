@@ -12,14 +12,17 @@ stb.set_book_config(menu_title="streamlit_book",
                     options=[
                             "What's new on v0.7.0?",
                             "Core Features",
+                            "Luke's Page"
                             ],
                     paths=[
                           "pages/00_whats_new.py", # single file
-                          "pages/01 Multitest", # a folder
+                          "pages/01 Multitest",
+                          "pages/luke_page.py" # a folder
                           ],
                     icons=[
                           "code",
                           "robot",
+                          "globe"
                           ],
                     save_answers=True,
                     )
